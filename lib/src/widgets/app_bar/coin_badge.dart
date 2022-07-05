@@ -1,0 +1,14 @@
+import '../../../src/shared_state/game/company.dart';
+import '../../../src/widgets/app_bar/stat_badge.dart';
+
+/// Visually indicates the amount of capital the [Company] has amassed for this
+/// game session.
+class CoinBadge extends StatBadge<int> {
+  const CoinBadge(StatValue<int> statValue, {super.key, double scale = 1, bool isWide = false})
+      : super('Capital', statValue,
+            flare: 'assets/flare/Coin.flr', scale: scale, isWide: isWide);
+
+  /// Play the indicator animation after this value changes by at least 5 coins.
+  @override
+  int get celebrateAfter => 5;
+}
