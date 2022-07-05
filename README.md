@@ -4,13 +4,13 @@ Developer Quest Game
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a reinvention of the developer quest game, originally created by 2Dimensions.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [FLUTTER](https://docs.flutter.dev/get-started/codelab)
+- [FLARE](https://pub.dev/packages/flare_flutter)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The flare_flutter package is no longer being maintained and has now been migrated to Rive, but this project uses a cleaned version of the now unmaintained flare_flutter package, view the
+[online documentation](pub.dev/packages/flare_flutter), which offers tutorials,
+samples, guidance on how to implement it, and a full API reference.
