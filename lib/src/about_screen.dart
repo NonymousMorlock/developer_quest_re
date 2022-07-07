@@ -122,7 +122,7 @@ class AboutScreen extends StatelessWidget {
                             Image.asset('assets/images/2dimensions.png'),
                             const SizedBox(height: 11),
                             const Text(
-                              'REINVENTED BY LOGAN',
+                              'REINVENTED BY PAUL',
                               style: TextStyle(
                                   fontFamily: 'MontserratMedium', fontSize: 12),
                             ),
@@ -197,7 +197,7 @@ class AboutScreen extends StatelessWidget {
                                     'assets/images/2dimensions_wide.png'),
                                 const SizedBox(height: 11),
                                 const Text(
-                                  'REDESIGNED BY LOGAN',
+                                  'REDESIGNED BY PAUL',
                                   style: TextStyle(
                                       fontFamily: 'MontserratMedium', fontSize: 12),
                                 ),
